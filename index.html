@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kgodiso Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+
+    <!------------ Home Section ------------->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <h1 class="logo"></h1>
+                <ul class="nav-links">
+                    <li><a class="hov1" href="#header">Home</a></li>
+                    <li><a class="hov2" href="#personal-information">Personal Information</a></li>
+                    <li><a class="hov3" href="#education">Education</a></li>
+                    <li><a class="hov3" href="#work-experience">work experience</a>
+                    <li><a class="hov3" href="#skills">Skills</a></li>
+                    <li><a class="hov4" href="#project">Projects</a></li>
+                    <li><a class="hov5" href="#contact-me">Contact Me</a></li>
+                </ul>
+                <img src="images/sun.png" id="icon">
+                <div class="social-links">
+                    <a href="https://x.com/Kgodiso05"><i class="fab fa-twitter"><span>Twitter</span></i><br></a>
+                    <a href="https://www.linkedin.com/in/kgodiso-matlala-6b0190331/"><i
+                            class="fab fa-linkedin"><span>Linkedin</span></i><br></a>
+                    <a href="https://github.com/K659"><i class="fab fa-github"><span>Github</span></i></a>
+                </div>
+            </nav>
+            <div class="main">
+                <div class="container1">
+                    <p class="port">Welcome to my curriculum vitae</p>
+                    <h1 class="text">Hi I'm Matlala Kgodiso
+                    </h1>
+                    <h1 class="text-typ">
+                        <span class="auto-typed"></span>
+                    </h1>
+                    <a href="curriculum vitae"><button class="btn2">Download my Curriculum vitae here</button></a>
+                    <div class="social">
+                    </div>
+                </div>
+                <div class="imag">
+                    <img class="anim-img" src="images/Virtual reality-cuate (2).png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Personal information Section -->
+    <div id="personal-information" style="display: flex; align-items: center; justify-content: space-between;">
+        <!-- Image section on the left -->
+        <div class="img-ai" style="flex: 1; padding-right: 20px;">
+            <img class="imga"
+                src="images/hanish_tharwani_coding_men_best_image_8k_5d_realistic_cinematic_9d0d3d66-cadd-4da3-b244-536cbf81a4b5.png"
+                alt="Image of Hanish Tharwani" style="max-width: 80%; height: auto;">
+        </div>
+
+        <!-- Text section on the right -->
+        <div class="text-ai" style="flex: 1;">
+            <h1 class="personal-info" style="font-size: 4vw; color: var(--primary-color); text-align: left;">Personal
+                Info</h1>
+            <p class="para">Hello👋, my name is Matlala Kgodiso and I was born and raised in Limpopo Province from South
+                Africa. I am a computer science student and a web
+                developer with great passion for website design. I have been working on the web developing for some
+                time, and will continue to do so. Apart from having web developer skills, I also know some programming
+                languages ​​like C, C++, Python. A lot of work has also been done on machine learning and some projects
+                have
+                also been created. But right now my focus is on the front end and back end because these skills give me
+                the freedom
+                to make anything new and innovative so that I can find a solution for any problem. HTML, CSS and
+                JavaScript are very
+                important skills from which you can learn and create a lot of new things.</p>
+        </div>
+    </div>
+
+
+
+
+    <div id="education">
+        <div class="box">
+            <h1 class="my-education profile">My Education Profile</h1>
+            <div class="action-buttons">
+                <button onclick="toggleDropdown('education-dropdown')">Add</button>
+                <div id="education-dropdown" class="dropdown-content">
+                    <a href="#" onclick="showForm('education')">Add Education</a>
+                </div>
+            </div>
+            <div class="grid" id="education-list">
+                <!-- Initial education entry -->
+                <div class="card-1">
+                    <h2 class="institution">University of Limpopo</h2>
+                    <p class="degree">Bachelor of Science in Computer Science</p>
+                    <p class="duration">February 2024 - present</p>
+                    <button onclick="editEntry(this)">Edit</button>
+                    <button onclick="deleteEntry(this)">Delete</button>
+                </div>
+                <div class="card-1">
+                    <h2 class="institution">Rantobeng High School</h2>
+                    <p class="degree">Admissions to Bachelor's degree</p>
+                    <p class="duration">2019 - 2023</p>
+                    <button onclick="editEntry(this)">Edit</button>
+                    <button onclick="deleteEntry(this)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="work-experience">
+        <div class="box">
+            <h1 class="my-education profile">Work Experience</h1>
+            <div class="action-buttons">
+                <button onclick="toggleDropdown('work-dropdown')">Add</button>
+                <div id="work-dropdown" class="dropdown-content">
+                    <a href="#" onclick="showForm('work')">Add Work Experience</a>
+                </div>
+            </div>
+            <div class="grid" id="work-list">
+                <!-- Initial work experience entry -->
+                <div class="card-1">
+                    <h2 class="job-title">Web Developer Intern</h2>
+                    <p class="company-name">XYZ Company</p>
+                    <p class="duration">June 2023 - January 2024</p>
+                    <button onclick="editEntry(this)">Edit</button>
+                    <button onclick="deleteEntry(this)">Delete</button>
+                </div>
+                <div class="card-1">
+                    <h2 class="job-title">Freelance Web Developer</h2>
+                    <p class="company-name">Self-employed</p>
+                    <p class="duration">January 2022 - May 2023</p>
+                    <button onclick="editEntry(this)">Edit</button>
+                    <button onclick="deleteEntry(this)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form for Adding/Edit Entries -->
+    <div id="form-container" style="display:none;">
+        <h2 id="form-title">Add Entry</h2>
+        <form id="entry-form">
+            <input type="text" id="institution" placeholder="Institution/Company Name" required>
+            <input type="text" id="degree" placeholder="Degree/Job Title" required>
+            <input type="text" id="duration" placeholder="Duration" required>
+            <button type="submit">Save</button>
+            <button type="button" onclick="closeForm()">Cancel</button>
+        </form>
+    </div>
+
+    
+
+
+
+
+
+
+
+    <!------------ Skills Section ------------->
+    <div id="skills">
+        <div class="box">
+            <h1 class="my-skills">My Skills</h1>
+            <div class="grid">
+                <div class="card-1">
+                    <img class="icon-img" src="images/html.png" alt="HTML Icon">
+                    <p class="icon-name">HTML</p>
+                </div>
+                <div class="card-1">
+                    <img class="icon-img" src="images/icons8-css3-480.png" alt="CSS Icon">
+                    <p class="icon-name">CSS</p>
+                </div>
+                <div class="card-1">
+                    <img class="icon-img" src="images/javascript.png" alt="JavaScript Icon">
+                    <p class="icon-name">JavaScript</p>
+                </div>
+                <div class="card-1">
+                    <img class="icon-img" src="images/pngwing.com (1).png" alt="NodeJS Icon">
+                    <p class="icon-name">NodeJS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------ Projects Section ------------->
+    <div id="project">
+        <div class="box1">
+            <p class="my-project">My Projects</p>
+            <div class="grid-project">
+
+            </div>
+            <div class="card-2">
+                <div class="word">
+                    <img class="project-img" src="https://i.ytimg.com/vi/oTTiTcg7eCw/hqdefault.jpg" alt="Snake game">
+                    <div class="layer">
+                        <p class="about-project">The Snake Game serves as an engaging introduction to game development.
+                            It combines basic programming concepts such as control handling, rendering graphics, and
+                            implementing game mechanics.
+                            By utilizing technologies like HTML, CSS, and JavaScript, developers can create a simple yet
+                            captivating game that is both fun to play and instructive to build.
+                            This project can be a great starting point for anyone interested in learning about game
+                            development or improving their programming skills..</p>
+                        <a class="link-site" href="https://github.com/maumelas1234/snake-game.git"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="link-btn">
+                    <p class="project-name">Snake Game</p>
+                    <a href="https://github.com/your-github-repo"><button class="btn-git">Source Code</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- Contact Section ------------->
+
+    <div id="contact-me">
+        <div class="cen">
+            <div class="me">
+                <h1 class="send">SEND ME A MESSAGE</h1>
+            </div>
+            <form action="" method="POST">
+                <div>
+                    <input type="text" name="name" placeholder="Your name" id="name">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Your email " id="email">
+                </div>
+                <div>
+                    <textarea name="Message" id="message" rows="4" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button class="leave">SEND</button>
+            </form>
+        </div>
+
+        <div class="map">
+            <img class="message-man" src="" alt="" style="width: 100px; height: auto;">
+        </div>
+
+    </div>
+    </div>
+
+    <!-- ---------- Footer Section ------------->
+
+    <div id="footer">
+        <div class="foot">KGODISO.</div>
+        <p class="copy">Copyright &copy; 2024. All Rights Reserved.</p>
+    </div>
+
+
+
+
+
+<script src="script.js"></script> <!-- Link your JavaScript file -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-typed", {
+            strings: ["A Web Developer"],
+            typeSpeed: 100,
+            backSpeed: 10,
+            loop: true
+        });
+
+        let icon = document.getElementById("icon");
+        icon.addEventListener('click', () => {
+            document.body.classList.toggle('white-theme'); // Toggle theme
+
+            if (document.body.classList.contains('white-theme')) {
+                icon.src = 'images/moon.png'; // Moon icon for white theme
+            } else {
+                icon.src = 'images/sun.png'; // Sun icon for dark theme
+            }
+        });
+
+        let isDarkMode = false; // Track the current mode
+        let currentTextColorIndex = 0; // Track current text color index
+        let currentBgColorIndex = 0; // Track current background color index
+
+        const textColors = ['red-text', 'blue-text', 'green-text'];
+        const bgColors = ['lightblue-bg', 'lightgreen-bg', 'lightyellow-bg'];
+
+        function toggleDarkMode() {
+            isDarkMode = !isDarkMode; // Toggle the mode
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode'); // Add dark mode class to body
+            } else {
+                document.body.classList.remove('dark-mode'); // Remove dark mode class from body
+            }
+        }
+
+        function changeTextColor() {
+            // Remove current text color class
+            document.body.classList.remove(textColors[currentTextColorIndex]);
+
+            // Update index and add new color class
+            currentTextColorIndex = (currentTextColorIndex + 1) % textColors.length;
+            document.body.classList.add(textColors[currentTextColorIndex]);
+        }
+
+        function changeBackgroundColor() {
+            // Remove current background color class
+            document.body.classList.remove(bgColors[currentBgColorIndex]);
+
+            // Update index and add new background color class
+            currentBgColorIndex = (currentBgColorIndex + 1) % bgColors.length;
+            document.body.classList.add(bgColors[currentBgColorIndex]);
+        }
+
+
+
+
+
+
+        let currentEditingCard = null; // Track which card is being edited
+        let currentSection = ''; // Track the current section for adding
+
+        function toggleDropdown(dropdownId) {
+            const dropdown = document.getElementById(dropdownId);
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Show form for adding education or work experience
+        function showForm(section) {
+            currentSection = section;
+            const formContainer = document.getElementById('form-container');
+            const formTitle = document.getElementById('form-title');
+            formTitle.innerText = `Add ${section === 'education' ? 'Education' : 'Work Experience'}`;
+
+            // Clear form inputs if adding a new entry
+            if (!currentEditingCard) {
+                document.getElementById('institution').value = '';
+                document.getElementById('degree').value = '';
+                document.getElementById('duration').value = '';
+            } else {
+                // Populate form inputs for editing
+                document.getElementById('institution').value = currentEditingCard.querySelector('h2').innerText;
+                document.getElementById('degree').value = currentEditingCard.querySelector('.degree') ? currentEditingCard.querySelector('.degree').innerText : currentEditingCard.querySelector('.job-title').innerText;
+                document.getElementById('duration').value = currentEditingCard.querySelector('.duration').innerText;
+            }
+
+            formContainer.style.display = 'block';
+        }
+
+        // Close the form without saving
+        function closeForm() {
+            document.getElementById('form-container').style.display = 'none';
+            document.getElementById('entry-form').reset();
+            currentEditingCard = null;
+        }
+
+        document.getElementById('entry-form').onsubmit = function (event) {
+            event.preventDefault();
+
+            const institution = document.getElementById('institution').value;
+            const degree = document.getElementById('degree').value;
+            const duration = document.getElementById('duration').value;
+
+            const cardHtml = `
+        <div class="card-1">
+            <h2 class="${currentSection === 'education' ? 'institution' : 'job-title'}">${institution}</h2>
+            <p class="degree">${degree}</p>
+            <p class="duration">${duration}</p>
+            <button onclick="editEntry(this)">Edit</button>
+            <button onclick="deleteEntry(this)">Delete</button>
+        </div>
+    `;
+
+            if (currentEditingCard) {
+                // Update existing card
+                currentEditingCard.innerHTML = cardHtml;
+            } else {
+                // Add new card
+                const listId = currentSection === 'education' ? 'education-list' : 'work-list';
+                document.getElementById(listId).insertAdjacentHTML('beforeend', cardHtml);
+            }
+
+            closeForm();
+        }
+
+        function editEntry(button) {
+            currentEditingCard = button.parentElement; // Get the card to edit
+            currentSection = currentEditingCard.classList.contains('institution') ? 'education' : 'work'; // Determine section
+            showForm(currentSection); // Show form for editing
+        }
+
+        function deleteEntry(button) {
+            const card = button.parentElement; // Get the card to delete
+            card.remove(); // Remove the card
+        }
+
+
+
+
+
+
+    </script>
+
+
+    <style>
+        /* CSS for Footer */
+        #footer {
+            padding: 20px;
+            font-size: 60px;
+            text-align: center;
+            background-color: #ff00e3;
+            color: white;
+        }
+
+        .foot {
+            margin: 3;
+        }
+
+        .copy {
+            margin: 4;
+        }
+
+        \/* General Styles */ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            /* Light background */
+            color: #333;
+            /* Default text color */
+            transition: background-color 0.3s, color 0.3s;
+            /* Smooth transition for background and text colors */
+        }
+
+        .dark-mode {
+            background-color: #333;
+            /* Dark background */
+            color: white;
+            /* Default text color in dark mode */
+        }
+
+        .box {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            /* Light background for boxes */
+            transition: background-color 0.3s;
+            /* Smooth transition for box background */
+        }
+
+        .dark-mode .box {
+            background-color: #444;
+            /* Dark background for boxes in dark mode */
+            border-color: #666;
+            /* Dark border for boxes in dark mode */
+        }
+
+        h1,
+        h2,
+        p {
+            margin: 0 0 10px;
+            transition: color 0.3s;
+            /* Smooth transition for text color */
+        }
+
+        .grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card-1 {
+            background-color: #f9f9f9;
+            /* Light background for cards */
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            flex: 1;
+            min-width: 250px;
+            transition: background-color 0.3s;
+            /* Smooth transition for card background */
+        }
+
+        .dark-mode .card-1 {
+            background-color: #555;
+            /* Dark background for cards in dark mode */
+            border-color: #666;
+            /* Dark border for cards in dark mode */
+        }
+
+        .responsibilities {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* Toggle Button Styles */
+        #toggle-button,
+        #text-color-button,
+        #bg-color-button {
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            /* Button color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #toggle-button:hover,
+        #text-color-button:hover,
+        #bg-color-button:hover {
+            background-color: #0056b3;
+            /* Darker blue on hover */
+        }
+
+        /* Dropdown Menu Styles */
+        /* Dropdown Menu Styles */
+        .dropdown-content {
+            display: none;
+            /* Hidden by default */
+            position: absolute;
+            /* Positioned relative to parent */
+            background-color: white;
+            /* White background */
+            min-width: 160px;
+            /* Minimum width */
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            /* Shadow effect */
+            z-index: 1;
+            /* Stack above other content */
+        }
+
+        .dropdown-content a {
+            color: black;
+            /* Link color */
+            padding: 12px 16px;
+            /* Padding */
+            text-decoration: none;
+            /* No underline */
+            display: block;
+            /* Block display */
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+            /* Hover effect */
+        }
+
+        .action-buttons {
+            position: relative;
+            /* Allow positioning of dropdown */
+        }
+    </style>
+
+
+</body>
+
+</html>
