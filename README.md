@@ -1,51 +1,83 @@
-# Portfolio Website
+![Awesome Portfolio Website](./readme_assets/banner_apw.png)
 
-Welcome to the repository of my personal portfolio website! This website showcases my skills, projects, and provides information about me. It is built using HTML, CSS, and JavaScript, and is designed to be fully responsive across different devices.
+<div align="center">
 
-## Website Demo
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/smaranjitghose/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?v=103"></a>
 
-Below You can watch the demo video of my portfolio website.
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/graphs/contributors"><img src="https://img.shields.io/github/contributors/smaranjitghose/awesome-portfolio-websites?color=brightgreen"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/stargazers"><img src="https://img.shields.io/github/stars/smaranjitghose/awesome-portfolio-websites?color=0059b3"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/network/members"><img src="https://img.shields.io/github/forks/smaranjitghose/awesome-portfolio-websites?color=yellow"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/issues"><img src="https://img.shields.io/github/issues/smaranjitghose/awesome-portfolio-websites?color=0059b3"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/smaranjitghose/awesome-portfolio-websites?color=yellow"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/pulls"><img src="https://img.shields.io/github/issues-pr/smaranjitghose/awesome-portfolio-websites?color=brightgreen"></a>
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/smaranjitghose/awesome-portfolio-websites?color=0059b3"></a>
+
+</div>
+
+A community maintained open source project aimed at making personal portfolio for researchers, developers and analysts simple, fast and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavours.
+
+## A sneak peek into what we have here🙈 :
+
+### Home Page:
+
+<p align="center"><img src="./readme_assets/Home_Page.gif"></p>
+
+### Experience Page:
+
+<p align="center"><img src="./readme_assets/Experience_Page.gif"></p>
+
+### Project Page:
+
+<p align="center"><img src="./readme_assets/Project_Page.gif"></p>
+
+### Research Page:
+
+<p align="center"><img src="./readme_assets/Research_Page.gif"></p>
+
+### Education Page:
+
+<p align="center"><img src="./readme_assets/Education_Page.gif"></p>
+
+## How to use this?🛠
+
+[Check out our awesome Documentation](https://smaranjitghose.github.io/awesome-portfolio-websites/)
+
+## Contribution Guidelines🏗
+
+Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and improve it further.
+
+Click on the image below to set up and contribute to the project or [Click here](https://github.com/smaranjitghose/awesome-portfolio-websites/blob/master/CONTRIBUTING.md)
+
+<a href = "https://github.com/smaranjitghose/awesome-portfolio-websites/blob/master/CONTRIBUTING.md">
+<img src = "./readme_assets/Contribution.png"></a>
+
+## Project Maintainers👨🏫:
+
+| <img src = "https://avatars2.githubusercontent.com/u/46641503?v=4"> | <img src = "https://avatars2.githubusercontent.com/u/40017559?v=4"> | 
+| :----------------------------------------------------------: | :----------------------------------------------------------: | 
+|     [Smaranjit Ghose](https://github.com/smaranjitghose) |    [Anush Bhatia](https://github.com/anushbhatia)                       
 
 
-## Live Website
+## Our valuable Contributors👩‍💻👨‍💻 :
 
-To view the live version of my portfolio website, click the link below:
+<a href="https://github.com/smaranjitghose/awesome-portfolio-websites/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=smaranjitghose/awesome-portfolio-websites" />
+</a>
 
-[My Portfolio Website](https://my-portfolio-website-three-delta.vercel.app/)
+## Open Source Programs we have been a part of:
 
-Feel free to explore the different sections of the website, including:
-
-- **About Me**: Learn more about my background, skills, and interests.
-- **Skills**: Discover the various skills and technologies I specialize in.
-- **Projects**: Explore a selection of my notable projects, including descriptions and live demos.
-- **Contact**: Connect with me by using the contact form or reaching out through the provided channels.
-
-## Technologies Used
-
-The portfolio website is built using the following technologies:
-
-- HTML: Markup language for creating the structure of web pages.
-- CSS: Styling language used to enhance the visual appearance of the website.
-- JavaScript: Programming language for adding interactivity and dynamic features.
-
-## Usage
-
-If you would like to use this portfolio website as a template for your own portfolio, follow the steps below:
-
-1. Clone the repository: `git clone https://github.com/hanishtharwani123/MY-PORTFOLIO-WEBSITE.git`
-2. Customize the content in the HTML files to reflect your own information.
-3. Modify the CSS styles to match your desired design preferences.
-4. Add your own projects, skills, and contact details.
-5. Deploy the website to your preferred hosting platform.
-
-Feel free to adapt and customize the website to fit your unique needs and showcase your own work effectively.
-
-## Contributing
-
-I appreciate any contributions or suggestions to enhance this portfolio website. If you have any ideas or improvements, please feel free to submit a pull request or open an issue.
-
-Thank you for visiting my portfolio website repository. I hope you find it useful and inspiring for building your own portfolio website. If you have any questions or feedback, please don't hesitate to reach out.
-
-
-https://user-images.githubusercontent.com/104623869/211145102-0039f3e2-721e-4a60-ba77-12b0c223ce35.mp4
-
+<p align="center">
+<a href="https://scodein.tech/"><img src="./readme_assets/open_source_programs/sci.png" width= "25%"/></a>
+<a href="https://hakincodes.tech/"><img src="./readme_assets/open_source_programs/ch.png" width= "25%"/></a>
+<a href="https://njackwinterofcode.github.io/"><img src="./readme_assets/open_source_programs/nwoc.png" width= "25%" /></a>
+<a href="https://devscript.tech/woc/"><img src="./readme_assets/open_source_programs/dwoc.png" width="25%"></a>
+<a href="https://mexili.github.io/winter_of_code/#/"><img src="./readme_assets/open_source_programs/mwoc.png" width="25%"></a>
+<a href="https://crosswoc.ieeedtu.in/"><img src="./readme_assets/open_source_programs/crosswoc.png" width="25%"></a>
+<a href="https://letsgrowmore.in/soc/"><img src="./readme_assets/open_source_programs/lgmsoc.png" width="25%"></a>
+<a href="https://devincept.codes/"><img src="./readme_assets/open_source_programs/devincept.gif" width="25%"></a>
+<a href="https://ghc.anitab.org/programs-and-awards/open-source-day/"><img src="./readme_assets/open_source_programs/OSD.jpg" width="25%"></a>
+</p>
